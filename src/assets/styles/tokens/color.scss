@@ -1,0 +1,58 @@
+:root {
+  /* Light Theme (Default) */
+  --abn-color-primary: #d73495;
+  --abn-color-primary-hover: #c02a84;
+  --abn-color-primary-active: #b0236f;
+  --abn-color-secondary: #6366f1;
+  --abn-color-secondary-hover: #4f46e5;
+  --abn-color-secondary-active: #4338ca;
+
+  --abn-color-background: #ffffff;
+  --abn-color-surface: #f8fafc;
+  --abn-color-surface-hover: #f1f5f9;
+  --abn-color-surface-active: #e2e8f0;
+
+  --abn-color-text: #0f172a;
+  --abn-color-text-secondary: #475569;
+  --abn-color-text-tertiary: #64748b;
+  --abn-color-text-disabled: #94a3b8;
+  --abn-color-text-secondary: #475569;
+
+  --abn-color-border: #cbd5e1;
+  --abn-color-border-hover: #94a3b8;
+
+  --abn-color-error: #dc2626;
+  --abn-color-success: #16a34a;
+  --abn-color-warning: #ea580c;
+  --abn-color-info: #2563eb;
+  --abn-color-star: #eab308;
+
+  /* Dark Theme */
+  @media (prefers-color-scheme: dark) {
+    --abn-color-primary: #ec4899;
+    --abn-color-primary-hover: #db2777;
+    --abn-color-primary-active: #be185d;
+    --abn-color-secondary: #818cf8;
+    --abn-color-secondary-hover: #6366f1;
+    --abn-color-secondary-active: #4f46e5;
+
+    --abn-color-background: #0f172a;
+    --abn-color-surface: #1e293b;
+    --abn-color-surface-hover: #334155;
+    --abn-color-surface-active: #475569;
+
+    --abn-color-text: #f8fafc;
+    --abn-color-text-secondary: #cbd5e1;
+    --abn-color-text-tertiary: #94a3b8;
+    --abn-color-text-disabled: #64748b;
+
+    --abn-color-border: #334155;
+    --abn-color-border-hover: #475569;
+
+    --abn-color-error: #f87171;
+    --abn-color-success: #4ade80;
+    --abn-color-warning: #fb923c;
+    --abn-color-info: #60a5fa;
+    --abn-color-star: #facc15;
+  }
+}

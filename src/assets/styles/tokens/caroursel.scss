@@ -1,0 +1,13 @@
+:root {
+  @media (min-width: 1024px) {
+    --abn-carousel-indicator-list-padding: var(--abn-spacing-sm);
+    --abn-carousel-indicator-list-gap: 0.5rem;
+
+    --abn-carousel-indicator-background: var(--abn-color-secondary);
+    --abn-carousel-indicator-width: 0.6rem;
+    --abn-carousel-indicator-height: 0.5rem;
+    --abn-carousel-transition-duration: var(--abn-transition-base);
+    --abn-carousel-indicator-border-radius: var(--abn-border-radius-full);
+    --abn-carousel-indicator-active-background: var(--abn-color-primary);
+  }
+}

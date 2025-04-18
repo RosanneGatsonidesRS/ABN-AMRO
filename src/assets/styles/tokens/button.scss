@@ -1,0 +1,20 @@
+:root {
+  --abn-button-padding-y: var(--abn-spacing-sm);
+  --abn-button-padding-x: var(--abn-spacing-md);
+  --abn-button-text-primary-color: #ffffff;
+  --abn-button-border-radius: var(--abn-border-radius-md);
+  --abn-button-gap: var(--abn-spacing-sm);
+  --abn-button-label-font-weight: var(--abn-font-weight-default)
+    --abn-button-primary-background: var(--abn-color-primary);
+  --abn-button-primary-color: #ffffff;
+  --abn-button-primary-border-color: none;
+  --abn-button-text-primary-hover-background: var(--abn-color-primary-hover);
+  --abn-button-text-primary-active-background: var(--abn-color-primary-active);
+  --abn-button-transition-duration: var(--abn-transition-base);
+
+  --abn-disabled-opacity: 0.5;
+
+  .abn-button {
+    background-color: var(--abn-color-primary);
+  }
+}
